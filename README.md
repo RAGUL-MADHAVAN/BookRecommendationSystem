@@ -29,14 +29,13 @@ For full redesign and detailed documentation, see [REDESIGN_COMPLETE.md](./REDES
 ## ⚡ Quick Start
 
 ```bash
-# Seed database
-cd backend
+# 🖥️ Start Frontend (open a new terminal)
+cd BookRecommendationSystem/frontend
+npm run dev
+
+# 🖥️ Start Backend (open another new terminal)
+cd BookRecommendationSystem/backend
 npm run seed:pro
-
-# Start backend
 npm run dev
 
-# Start frontend
-cd ../frontend
-npm run dev
 ```
